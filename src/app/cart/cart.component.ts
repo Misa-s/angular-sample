@@ -21,7 +21,7 @@ export class CartComponent {
 
   onSubmit(): void {
     this.items = this.cartService.clearCart();
-    console.warn('オーダーは送信されました！', this.checkOutForm.value);
-    this.checkOutForm.reset();
+    console.warn('オーダーは送信されました！', this.checkoutForm.value);
+    this.checkoutForm.reset();
   }
 }

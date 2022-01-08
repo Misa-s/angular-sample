@@ -1,9 +1,5 @@
 <h3>カート</h3>
 
-<p>
-  <a routerLink="/shipping">配送料について</a>
-</p>
-
 <div class="cart-item" *ngFor="let item of items">
   <span>{{ item.name }}</span>
   <span>{{ item.price | currency: 'JPY':true }}</span>

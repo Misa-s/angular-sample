@@ -18,4 +18,10 @@ export class CartComponent {
     private cartService: CartService,
     private formBuilder: FormBuilder
   ) {}
+
+  onSubmit(): void {
+    this.items = this.cartService.clearCart();
+    console.warn('オーダーは送信されました！', this.checkOutForm.value);
+    this.checkOutForm.reset();
+  }
 }

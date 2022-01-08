@@ -1,4 +1,4 @@
-<h2>Products</h2>
+<h2>製品一覧</h2>
 
 <div *ngFor="let product of products">
   <h3>
@@ -9,7 +9,7 @@
       {{ product.name }}
     </a>
   </h3>
-  <p *ngIf="product.description">Description: {{ product.description }}</p>
+  <p *ngIf="product.description">説明: {{ product.description }}</p>
 
   <button (click)="share()">Share</button>
 

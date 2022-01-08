@@ -13,8 +13,6 @@ export class ProductDetailsComponent implements OnInit {
   constructor(private route: ActivatedRoute) {}
 
   ngOnInit(): void {
-    console.log(this.route);
-
     // まず、現在のrouteからProductIdを取得する
     const routeParams = this.route.snapshot.paramMap;
     const productIdFromRoute = Number(routeParams.get('puroductId')); // TODO: なんでproductIdって名前になってる？ => pathで設定したからだ

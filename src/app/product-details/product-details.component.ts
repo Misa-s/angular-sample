@@ -29,6 +29,6 @@ export class ProductDetailsComponent implements OnInit {
 
   addCart(product: Product) {
     this.cartService.addToCart(product);
-    window.alert('この商品はカートに追加されました！');
+    window.alert('{{product.name}} をカートインしたで！');
   }
 }

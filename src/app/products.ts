@@ -10,7 +10,7 @@ export const products = [
     id: 1,
     name: 'Phone XL',
     price: 79900,
-    description: 'めっちゃおっきくて画面でいうと最高にいいスマホやで',
+    description: 'めっちゃ画面おっきくてで最高のスマホやで',
   },
   {
     id: 2,
@@ -22,7 +22,7 @@ export const products = [
     id: 3,
     name: 'Phone Standard',
     price: 29900,
-    description: '普通や。',
+    description: '普通や。普通。',
   },
 ];
 
